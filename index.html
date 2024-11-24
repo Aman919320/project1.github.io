@@ -4,43 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Paragraph styling */
+        p {
+            margin: 10px 20px;
+            padding: 10px;
+            background-color: #fff;
+            border-left: 4px solid #007BFF;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button styling */
+        button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        /* Anchor tag within button */
+        button a {
+            text-decoration: none;
+            color: white;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Responsive design for smaller devices */
+        @media (max-width: 600px) {
+            p {
+                font-size: 14px;
+            }
+
+            button {
+                font-size: 14px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
 </head>
 <body>
     <p>
-    Description:
-A console-based chatbot created using the NLTK library. It responds to user inputs using predefined patterns and reflection rules for natural conversations.
-</p>
-<p>
-Requirements:
-Python 3.x
-Libraries:
-nltk
-</p>
-<p>
-Instructions:
-Setup:
-
-Install NLTK:
-bash
-Copy code
-pip install nltk
-Download required NLTK data:
-python
-Copy code
-import nltk
-nltk.download('punkt')
-Save the code as nltk_chatbot.py.
-Run the script using python nltk_chatbot.py.
-Interaction:
-
-Type a greeting (e.g., "hello") and observe the chatbot's response.
-Use keywords from predefined patterns like "how are you?" or "quit" to interact.
-Type "quit" to exit the chatbot.
-Enhancements:
-
-Add more conversational patterns and responses.
-Integrate with an NLP library (e.g., SpaCy) for more dynamic responses.
-</p>
-<button><a href="https://github.com/Aman919320/project1.github.io">Project 1 Link</a></button>
+        Description:<br>
+        A console-based chatbot created using the NLTK library. It responds to user inputs using predefined patterns and reflection rules for natural conversations.
+    </p>
+    <p>
+        Requirements:<br>
+        Python 3.x<br>
+        Libraries:<br>
+        nltk
+    </p>
+    <p>
+        Instructions:<br>
+        <strong>Setup:</strong><br>
+        Install NLTK:<br>
+        <code>pip install nltk</code><br>
+        Download required NLTK data:<br>
+        <code>
+            import nltk<br>
+            nltk.download('punkt')
+        </code><br>
+        Save the code as <code>nltk_chatbot.py</code>.<br>
+        Run the script using <code>python nltk_chatbot.py</code>.<br>
+        <br>
+        <strong>Interaction:</strong><br>
+        Type a greeting (e.g., "hello") and observe the chatbot's response.<br>
+        Use keywords from predefined patterns like "how are you?" or "quit" to interact.<br>
+        Type "quit" to exit the chatbot.<br>
+        <br>
+        <strong>Enhancements:</strong><br>
+        Add more conversational patterns and responses.<br>
+        Integrate with an NLP library (e.g., SpaCy) for more dynamic responses.
+    </p>
+    <button><a href="https://github.com/Aman919320/project1.github.io">Project 1 Link</a></button>
 </body>
 </html>
